@@ -135,8 +135,8 @@ export default {
             }
         }
         tocItemText =
-            tocItemText && tocItemText.length > 20
-                ? `${tocItemText.substring(0, 20)}...`
+            tocItemText && tocItemText.length > 80
+                ? `${tocItemText.substring(0, 80)}...`
                 : tocItemText;
 
         return tocItemText;
